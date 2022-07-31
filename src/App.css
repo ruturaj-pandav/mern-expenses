@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -12,6 +12,198 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
+.transaction-credit {
+  background-color: #90EE90;
+  border: 1px solid green;
+
+
+}
+
+.mainDivMoreAnalysis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tagHeading {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(76, 76, 207);
+
+}
+
+.logoutButtonOnDashboard {
+  border: 1px solid red;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: white;
+  color: red;
+  font-size: 16px;
+  font-family: 700;
+  margin:0px 5px;
+  transition : all 0.3s;
+  cursor:pointer
+}
+
+
+.changePasswordOnDashboard {
+  border: 1px solid #006400;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color:white;
+  color: #006400;
+  font-size: 18px;
+  font-family: 700;
+  margin:0px 5px;
+  transition : all 0.3s;
+  cursor:pointer
+}
+.deleteAccountOnDashboard {
+  border: 1px solid #dc3546;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color:#dc3546;
+  color: white;
+  font-size: 18px;
+  margin:0px 5px;
+  cursor:pointer;
+  font-family: 700;
+  transition : all 0.3s;
+}
+
+.logoutButtonOnDashboard:hover , .deleteAccountOnDashboard:hover , .changePasswordOnDashboard:hover {
+  transform  : scale(1.05)
+
+}
+
+.optionTag {
+  color:blue;
+  background-color:pink
+}
+.selectTag {
+  width : 200px;
+  height : 50px;
+  border-radius :50px;
+  font-size : 18px;
+  text-align: center;
+}
+
+.addTransactionInputField {
+  
+  height : 50px;
+  border: 1px solid #8b8787;
+  width : 200px;
+  font-family: 700;
+  padding: 10px 20px;
+  border-radius : 50px;
+  text-align : center;
+  font-size : 18px;
+}
+.individualTagDivision {
+
+  border: 1px solid rgb(213, 212, 212);
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  transition: all 0.3s
+}
+
+.individualTagDivision:hover {
+  transform: scale(1.05);
+}
+
+.tagDisplayEntryDiv {
+  /* width : 40%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(233, 229, 229);
+  padding: 5px 0px;
+
+
+
+}
+
+.passwordShouldMatchText {
+  color: red;
+}
+
+.chartDiv {
+  /* border : 1px solid orange ;  */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 400px;
+  /* height : 200px;  */
+}
+
+.deleteTransactionButton {
+  border-radius: 2px;
+  background: transparent;
+
+  /* border : 1px solid white; */
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.1s;
+  border: 1px solid transparent;
+  color: white
+}
+
+.deleteTransactionButton:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.enterOTPDiv {
+  display: flex;
+  /* margin-top : 50px; */
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.text-muted {
+  color: rgb(124, 122, 122);
+}
+
+.deleteAccountWarning {
+  color: red;
+  margin-top: 50px;
+}
+
+.newPasswordDiv {
+  display: flex;
+  margin-top: 50px;
+  padding: 20px 0px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.askingMailDiv {
+  margin-top: 50px;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid black; */
+}
+
+.transaction-debit {
+  background-color: #fc8381;
+  border: 1px solid rgb(241, 31, 31);
+
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -32,6 +224,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
